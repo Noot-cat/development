@@ -5,7 +5,7 @@ class CreateCircle(Scene):
     def construct(self):
         circle = Circle()  # create a circle
         circle.set_fill(BLUE, opacity=0.5)  # set the color and transparency
-        self.play(Create(circle))  # show the circle on screen
+        self.play(DrawBorderThenFill(circle))  # show the circle on screen
         square = Square()
         self.play(Create(square))
 
