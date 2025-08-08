@@ -68,7 +68,7 @@ class SectionalQuadrature(Scene):
         self.play(group.animate.scale(0.25).move_to(LEFT * 5 + UP * 2.5))
         self.wait()
         text=MathTex(
-            "\\lim_{n \\to \\infty} \\sum_{k = 1}^{n} f\\left ( \\frac{k}{n} \\right ) \\frac{1}{n}  = \\int_{0}^{1} f(x) \\,dx"
+            "\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k = 1}^{n} f\\left ( \\frac{k}{n} \\right ) = \\int_{0}^{1} f(x) \\,dx"
         )
         self.play(Write(text))
         self.wait(2)
