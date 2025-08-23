@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    background-color: aqua;
+}
+
+.header a{
+    text-decoration: none;
+    color: #000000;
+}
+
+div.home{
+    display: flex;
+    align-items: center;
+}
+
+a.home{
+    margin: 5px;
+}
+
+.header_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style-type: none;
+}
+
+.header_list_item{
+    margin: 5px;
+}
+
+.wrapper{
+    margin: 10px 10px 0 10px;
+}
+
