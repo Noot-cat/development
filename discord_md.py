@@ -2,7 +2,7 @@ import discord
 import datetime
 
 TOKEN = "MTQwNTA3NTA5MTY3ODY5NTQyNA.GQAUsT.G704z5N9KD4QM-AxxCuJPYIgmhzDGANP599bUE"
-FILENAME = "C:\obsidian\default\discord\link.md"
+FILENAME = "C:\obsidian\storage\discord\link.md"
 # ここに記録したいチャンネルのIDを指定してください（int型）
 TARGET_CHANNEL_ID = 1403365203235831941  # 例: 123456789012345678
 
